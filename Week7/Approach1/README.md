@@ -24,8 +24,16 @@ Reduce #parameters with Depthwise seperable convolutions.
 highest test accuracy: 79.91%(9th epoch)
 
 **Step3:**  
-Added dilated convolutions to get better receptive fields with same no.of params  
+Added dilated convolutions(worked better in deeper layers)to get better receptive fields with same no.of params  
 #epochs:15  
 #parameters:185,632  
-test accuracy: 80.00% (9th epoch) & 80.79% (14th epoch)
+test accuracy: 80.00% (9th epoch) & 80.79% (14th epoch)  
+
+**Step4:**   
+a)Added Dropout to reduce overfitting 
+b)Increased no.of epochs  
+#epochs:20  
+#parameters:185,632  
+test accuracy: 80.67% (12th epoch) & 82.41% (20th epoch)
+
 
