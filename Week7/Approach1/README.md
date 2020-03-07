@@ -18,14 +18,14 @@ highest test accuracy: 80.63%(10th epoch)
 
 
 **Step2:**  
-Reduce #parameters with Depthwise seperable convolutions.
+Reduce #parameters with Depthwise seperable convolutions.  
 #epochs:10  
 #parameters:185,632  
 highest test accuracy: 79.91%(9th epoch)
 
 **Step3:**  
 Added dilated convolutions to get better receptive fields with same no.of params  
-#epochs:10  
+#epochs:15  
 #parameters:185,632  
-highest test accuracy: 79.91%  
+test accuracy: 80.00% (9th epoch) & 80.79% (14th epoch)
 
