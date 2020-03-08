@@ -13,8 +13,8 @@ if cuda:
     torch.cuda.manual_seed(SEED)
 
 # dataloader arguments - something you'll fetch these from cmdprmt
-train_dataloader_args = dict(shuffle=True, batch_size=128, num_workers=4, pin_memory=True) if cuda else dict(shuffle=True, batch_size=64)
-test_dataloader_args = dict(shuffle=False, batch_size=128, num_workers=4, pin_memory=True) if cuda else dict(shuffle=True, batch_size=64)
+train_dataloader_args = dict(shuffle=True, batch_size=64, num_workers=4, pin_memory=True) if cuda else dict(shuffle=True, batch_size=32)
+test_dataloader_args = dict(shuffle=False, batch_size=64, num_workers=4, pin_memory=True) if cuda else dict(shuffle=True, batch_size=32)
 
 # train dataloader
 
