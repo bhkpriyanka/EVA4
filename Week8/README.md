@@ -1,5 +1,3 @@
-***Team-BhkPriyanka, Siddharth Surange, Prateek Jain, Anjali Chimnani***
-
 **Assignment:**   
 1.Go through this repository: https://github.com/kuangliu/pytorch-cifar  
 2.Extract the ResNet18 model from this repository and add it to your API/repo.  
